@@ -5,4 +5,4 @@
 
 //Com o LET não se torna possível mudar o valor da variável nem reutilizar uma variável já existente.
  let name = 'Apolo';
- let name = 'Apolo';
+ //let name = 'Apolo';
