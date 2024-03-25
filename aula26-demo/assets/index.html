@@ -14,16 +14,17 @@
         </h1>
         <div class="box-index1">
             <div class="index-1">
-                <h2>IMC</h2>
+                <h2 style="margin-bottom: 10px;">IMC</h2>
                 <p>Menos do que 18,5</p> 
                 <p>Entre 18,5 e 24,9</p> 
+                <p>Entre 25 e 29.,9</p>
                 <p>Entre 30 e 34,9</p> 
                 <p>Entre 35 e 39,9</p> 
                 <p>Mais que 40</p>
             </div>
 
             <div class="index-2">
-                <h2>Resultado</h2>
+                <h2 style="margin-bottom: 10px;">Resultado</h2>
                 <p>Abaixo do peso</p> 
                 <p>Peso normal</p> 
                 <p>Sobrepeso</p> 
@@ -33,12 +34,12 @@
             </div>
         </div>
 
-        <div class="boox-index2">
-            <h1>Calcule seu IMC</h1>
+        <div class="box-index2">
+            <h1 id="titleCalcule">Calcule seu IMC</h1>
             <form action="/" id="questions" method="post">
-                <label for="peso">Peso:</label>
+                <label for="peso" class="box-input">Peso:</label>
                 <input type="text" name="peso" id="peso">
-                <label for="altura">Altura:</label>
+                <label for="altura" class="box-input">Altura:</label>
                 <input type="text" name="altura" id="altura">
                 <button type="submit">Enviar</button>
             </form> 
