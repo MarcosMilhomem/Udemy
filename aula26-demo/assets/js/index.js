@@ -4,6 +4,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault()
     console.log('Evento previnido')
     setResult();
+    calculo();
 });
 
 function setResult(msg) {
@@ -12,4 +13,12 @@ function setResult(msg) {
     const p = document.createElement('p');
     p.innerHTML = 'amorgena';
     result.appendChild(p);
+}
+
+function calculo(calcIMC) {
+    const weight = document.querySelector ('#peso')
+    const height = document.querySelector ('#altura')
+    
+    const equacao = weight / height * height ;
+    alert (equacao)
 }

@@ -55,8 +55,11 @@ form {
 input {
     background-color: transparent;
     border: none;
+    text-decoration: none;
     border-bottom: 1.7px solid rgb(235, 125, 0);
     margin-bottom: 20px;
+    color: rgb(252, 77, 8);
+    font-size: 1.05em;
 }
 
 button {
