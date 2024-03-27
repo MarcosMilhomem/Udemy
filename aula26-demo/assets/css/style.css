@@ -8,8 +8,6 @@
 body {
     background-image: linear-gradient(rgb(245, 152, 31), rgb(223, 111, 6), rgb(211, 32, 0));
     background-repeat: no-repeat;
-    height: 96.7vh;
-    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315)
@@ -27,16 +25,22 @@ section {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.603);
     max-width: 500px;
-    max-height: 500px;
     border-radius: 10px;
     padding: 30px;
     margin-top: 20px;    
+    margin-bottom: 20px;    
 }
 
 .box-index1 {
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
+}
+
+#obs {
+    font-size: 0.6em;
+    margin-top: -8px;
+    color: rgba(255, 255, 255, 0.788);
 }
 
 form {
@@ -54,12 +58,14 @@ form {
 }
 
 input {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 3px;
+    border-radius: 10px;
     border: none;
     text-decoration: none;
     border-bottom: 1.7px solid rgb(235, 125, 0);
     margin-bottom: 20px;
-    color: rgb(255, 238, 230);
+    color: rgb(150, 42, 0);
     font-size: 1.05em;
 }
 

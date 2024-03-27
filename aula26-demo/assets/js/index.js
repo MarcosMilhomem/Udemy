@@ -18,6 +18,8 @@ function setResult(msg) {
 function calculo(calcIMC) {
     const weight = document.querySelector ('#peso')
     const height = document.querySelector ('#altura')
+
+    const weightMod = parseInt
     
     const equacao = weight / height * height ;
     alert (equacao)
