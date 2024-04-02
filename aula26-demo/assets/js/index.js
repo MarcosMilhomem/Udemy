@@ -16,11 +16,12 @@ function setResult(msg) {
 }
 
 function calculo(calcIMC) {
-    const weight = document.querySelector ('#peso')
-    const height = document.querySelector ('#altura')
+    // const weight = document.querySelector ('#peso')
+    // const height = document.querySelector ('#altura')
 
-    const weightMod = parseInt
+    // const weightMod = Number(weight)
+    // const heightMod = Number(height)
     
-    const equacao = weight / height * height ;
-    alert (equacao)
+    const equacao = 80 / 1.90 * 1.90;
+    console.log(equacao)
 }
