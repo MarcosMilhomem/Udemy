@@ -11,17 +11,16 @@ function setResult(msg) {
     const result = document.querySelector ('#result');
     result.innerHTML = '';
     const p = document.createElement('p');
-    p.innerHTML = 'amorgena';
+    p.innerHTML = calculo();
     result.appendChild(p);
 }
 
-function calculo(calcIMC) {
-    // const weight = document.querySelector ('#peso')
-    // const height = document.querySelector ('#altura')
+function calculo() {
+    const weight = document.querySelector ('#peso')
+    const height = document.querySelector ('#altura')
 
-    // const weightMod = Number(weight)
-    // const heightMod = Number(height)
+    const weightMod = Number(weight)
+    const heightMod = Number(height)
     
-    const equacao = 80 / 1.90 * 1.90;
-    console.log(equacao)
+    const equacao = weightMod / (heightMod * heightMod);
 }
