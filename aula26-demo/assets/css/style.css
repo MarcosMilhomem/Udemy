@@ -92,3 +92,7 @@ button:hover {
 button:not(hover) {
     transition: ease-in 0.1s;
 }
+
+.paragrafo-resultado {
+    background-color: rgba(185, 143, 6, 0.541);
+}
